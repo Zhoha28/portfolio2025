@@ -20,6 +20,7 @@ import RubiconStrategy from '@pages/projects/rubicon-strategy'
 import SafeAndWellWaterloo from '@pages/projects/safe-and-well-waterloo'
 import AbacusData from '@pages/projects/abacus-data'
 import MovieMood from '@pages/projects/moviemood'
+import RecipeBlog from '@pages/projects/recipe-blog'
 
 export const router = createBrowserRouter([
   {
@@ -98,7 +99,10 @@ export const router = createBrowserRouter([
         path: '/projects/abacus-data',
         element: <AbacusData />
       },
-    
+       {
+        path: '/projects/recipe-blog',
+        element: <RecipeBlog />
+      },
     ]
   }
 ])
