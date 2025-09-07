@@ -21,6 +21,8 @@ import SafeAndWellWaterloo from '@pages/projects/safe-and-well-waterloo'
 import AbacusData from '@pages/projects/abacus-data'
 import MovieMood from '@pages/projects/moviemood'
 import RecipeBlog from '@pages/projects/recipe-blog'
+import Catfolio from '@pages/projects/catfolio'
+
 
 export const router = createBrowserRouter([
   {
@@ -102,6 +104,10 @@ export const router = createBrowserRouter([
        {
         path: '/projects/recipe-blog',
         element: <RecipeBlog />
+      },
+             {
+        path: '/projects/catfolio',
+        element: <Catfolio />
       },
     ]
   }

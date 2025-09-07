@@ -2,6 +2,13 @@ export const portfolioData = [
   // Next.js
   {
     id: 1,
+    title: "Catfolio",
+    img: "/images/projects/cats.jpg",
+    categories: ["Next.js", "Contentful", "React"],
+    link: "/projects/catfolio",
+  },
+  {
+    id: 1,
     title: "The Recipe Blog",
     img: "/images/projects/recipe-blog.jpg",
     categories: ["Next.js", "Contentful", "React"],
